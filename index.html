@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JRProject</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body id="body">
+
+
+<!--         Head              -->
+
+
+
+	<header id="main-header">
+
+
+		<div id="slider">	
+			<figure>
+				<img src="img/pic.jpg">
+				<img src="img/pic1.jpg">
+				<img src="img/pic2.jpg">
+				<img src="img/pic3.jpg">
+				<img src="img/pic4.jpg">
+			</figure>
+		</div>
+		
+
+	</header>
+
+
+<!--         MAIN AREA              -->
+
+
+		<div id="navbar">
+			<ul>
+				<div class="navblock"><li><a>CSS</a></li></div>
+				<div class="navblock"><li><a>About</a></li></div>
+				<div class="navblock"><li><a>Services</a></li></div>
+				<div class="navblock"><li><a>GSHIT</a></li></div>
+				<div class="navblock"><li><a>Random</a></li></div>
+			</ul>
+		</div>
+		<div class="content">	
+				<img src="img/large.jpg">
+				<circle class="circle" id="c1"><p>quote</p></circle>
+				<div class="quote" id="q1">
+					<div id="quote"><p> Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak. 	</p><p class="author">- Thomas Carlyle</p>	</div>	
+				</div>
+				<circle class="circle" id="c2"><p>quote</p></circle>
+				<div class="quote" id="q2">
+					<div id="quote"><p> Very little is needed to make a happy life; it is all within yourself, in your way of thinking. 	</p><p class="author">- Marcus Aurelius</p>	</div>	
+				</div>
+				<circle class="circle" id="c3"><p>quote</p></circle>
+				<div class="quote" id="q3">
+					<div id="quote"><p> Wise men speak because they have something to say; Fools because they have to say something.	</p><p class="author">- Plato</p>	</div>	
+				</div>
+
+				<circle class="circle" id="cl1"><p>Some Decisions</p></circle>
+				<div class="quote" id="ql">
+					<div id="quote"><h2>Wise decisions:</h2>
+						<br>
+						<ul id="list">
+							<li>Challenging yourself</li>
+							<li>Thinking about future</li>
+							<li>Finding balance</li>
+						</ul>
+						<div id="addbtn">
+						<p>Add&emsp;</p><button onclick="addDecision()">&#43;</button>
+						</div>
+					</div>	
+				</div>
+
+			<!--      add a Wise Decision       -->
+				
+				<div id="addDecision">
+					<div class="headOfaddDecision"><p>Your decision: </p></div>
+					<textarea rows="20" cols="50" id="textOfaddDecision" placeholder="write here.."></textarea> 
+					<button class="submitDecision" onclick="addDecisiontoList()"><p>Submit</p></button>
+				</div>
+
+
+				<circle class="circle" id="c4"><p onclick="more()" ondblclick="dmore()">More</p></circle>
+		</div>
+		
+		<br>
+
+	
+
+
+	<!--         MORE AREA     what could i put here?         -->
+
+
+	<div id="section-b">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrd exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.l Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<circle class="circle" id="c5"><p onclick="less()">Less</p></circle>
+	</div>
+
+	<div id="head">
+		<div class="maintext">
+			<h2>Coding project CSS</h2>   <!--    Name     -->
+			<input onclick="headfun()" id='xbtn' type='button' value="&#9747;"></input>
+		</div>
+	</div>
+
+
+<!--          Footer             -->
+
+
+	<footer class="footer">		
+		<p>Copyright &copy; 2017 FuckYou Production</p>
+	</footer>
+
+</body>
+</html>
