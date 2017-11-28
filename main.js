@@ -29,3 +29,12 @@ function addDecisiontoList(){
 	li.appendChild(document.createTextNode(decision));
 	document.getElementById("list").appendChild(li);
 }
+
+
+function gotoindex(){
+	window.location.href = 'index.html';
+}
+
+function gototroll(){
+	window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+}

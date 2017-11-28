@@ -166,6 +166,7 @@ body {
 		text-align: center;
 		box-sizing: border-box;
 		height:60px;
+		cursor:pointer;
 		background: linear-gradient(to bottom right, #872828, #774343);
 	}
 
@@ -240,8 +241,10 @@ body {
 		#c1 p{
 			justify-content: center;
 			margin-top: 13px;
-			font-style:italic;
+			font-style: italic;
 			margin-left:5px;
+			opacity: 0.8;
+			font-size: 17px;
 		}
 
 		#c2{
@@ -253,7 +256,9 @@ body {
 			justify-content: center;
 			margin-top: 13px;
 			font-style:italic;
-			margin-left:5px;
+			margin-left:5px;			
+			opacity: 0.8;
+			font-size: 17px;
 		}
 
 		#c3{
@@ -266,7 +271,9 @@ body {
 			justify-content: center;
 			margin-top: 13px;
 			font-style:italic;
-			margin-left:5px;
+			margin-left:5px;	
+			opacity: 0.8;
+			font-size: 17px;
 		}
 
 		#c4{
@@ -314,6 +321,8 @@ body {
 			margin-top: 25px;
 			margin-left: 20px;
 			font-style:italic;
+			opacity: 0.8;
+			font-size: 17px;
 		}
 
 
@@ -448,10 +457,11 @@ body {
 
 		#textOfaddDecision{
 			overflow:hidden;
+			width: 405px;
 		}
 
 		.submitDecision{
-			width: 415px;
+			width: 100%;
 			height: 26px;
 			background-color: #ccc;
 		}
